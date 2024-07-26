@@ -36,7 +36,7 @@ const Contact = () => {
   return (
     <main className="w-full py-[30px] lg:py-[100px] px-5 lg:pl-[55px] xl:pl-[115px] mx-auto ">
       <div className="w-full sm:w-[85%] flex flex-col lg:flex-row justify-center items-center gap-y-8 gap-x-8 xl:gap-x-14">
-        <div className="w-full w-fit flex flex-col gap-y-20">
+        <div className="w-full lg:w-fit flex flex-col gap-y-20">
           <div>
             <h4 className="font-semibold italic text-[18px] leading-[24px]">
               Contact
