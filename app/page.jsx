@@ -6,7 +6,7 @@ import tel from '@/public/images/home/tel.svg'
 import msg from '@/public/images/home/msg.svg'
 import textBGImg from "@/public/images/home/sector.svg";
 
-import instagramIcon from "@/public/images/home/instagram.svg";
+import instagramIcon from "@/public/images/home/Instagram.svg";
 import dribbbleIcon from "@/public/images/home/icon.svg";
 import FBIcon from "@/public/images/home/fb.svg";
 import Button from "@/components/Button";
