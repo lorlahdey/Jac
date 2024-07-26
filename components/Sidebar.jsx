@@ -4,6 +4,7 @@ import Image from "next/image";
 import google from "@/public/images/sidebar/google.svg";
 import icon from "@/public/images/sidebar/icon.svg";
 import instagram from "@/public/images/sidebar/Instagram.svg";
+import Link from "next/link";
 
 const Sidebar = () => {
   const pathname = usePathname();
@@ -19,7 +20,9 @@ const Sidebar = () => {
 
   return (
     <div className="w-[285px] min-h-screen bg-[#141313] text-white p-12 flex flex-col justify-between ">
-      <h3 className="font-bold text-3xl leading-[39px] mb-[101px]">Jac.</h3>
+      <Link href={'/'}>
+        <h3 className="font-bold text-3xl leading-[39px] mb-[101px]">Jac.</h3>
+      </Link>
       <div>
         <ul className="flex flex-col gap-y-5  mb-12">
           {navItems.map((item) => (
