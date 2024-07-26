@@ -34,9 +34,9 @@ const Contact = () => {
  };
 
   return (
-    <main className="w-full py-[30px] lg:py-[100px] pl-5 pr-5 lg:pl-[115px] mx-auto ">
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-y-8 gap-x-14">
-        <div className="w-full flex flex-col justify-between gap-y-20">
+    <main className="w-full py-[30px] lg:py-[100px] px-5 lg:pl-[55px] xl:pl-[115px] mx-auto ">
+      <div className="w-full sm:w-[85%] flex flex-col lg:flex-row justify-center items-center gap-y-8 gap-x-8 xl:gap-x-14">
+        <div className="w-full w-fit flex flex-col gap-y-20">
           <div>
             <h4 className="font-semibold italic text-[18px] leading-[24px]">
               Contact
@@ -44,7 +44,7 @@ const Contact = () => {
             <h3 className="font-bold text-[48px] leading-[56px] mt-4 mb-[30px] uppercase">
               Reach out me
             </h3>
-            <p className="sm:w-[400px] text-[16px] leading-[24px] -tracking-[3%]">
+            <p className="w-full sm:w-[400px] text-[16px] leading-[24px] -tracking-[3%]">
               249 king Sir, 05th Floor, Ultra House Building, Melboune, VIC
               3000, London.
             </p>
@@ -72,7 +72,7 @@ const Contact = () => {
             </span>
           </div>
         </div>
-        <div className='w-full lg:w-[775px]  bg-gradient-to-r from-[#B86ADF] via-[#FF6C63] to-[#FFB147] text-white px-[30px] py-[34px] lg:px-[85px] lg:py-[64px] flex flex-col items-center gap-x-10">'>
+        <div className='w-full lg:w-[775px]  bg-gradient-to-r from-[#B86ADF] via-[#FF6C63] to-[#FFB147] text-white px-[30px] py-[34px] lg:px-[55px] xl:px-[85px] lg:py-[64px] flex flex-col items-center gap-x-10">'>
           <h3 className="text-left self-start uppercase font-bold text-[30px] leading-[48px] mb-20">
             any project?
           </h3>
