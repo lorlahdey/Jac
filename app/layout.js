@@ -1,7 +1,12 @@
-import { Inter } from "next/font/google";
+import { Inter, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
+import Sidebar from "@/components/Sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
+const ibm_plex_sans = IBM_Plex_Sans({
+  subsets: ["latin"],
+  weight: ['100', '200', '300', '400', '500', '600', '700'],
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +16,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`min-h-screen ${ibm_plex_sans.className} text-[#141313] flex flex-row`}
+      >
+        <Sidebar />
+        {children}
+      </body>
     </html>
   );
 }
